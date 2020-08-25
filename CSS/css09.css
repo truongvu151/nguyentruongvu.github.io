@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+    color: blue;
+    font-family: arial;
+    font-size: 45px;
+    margin: 0px;
+    border-bottom: aqua solid 5px;
+}
+/* menu */
+#menu ul {
+    background-color: aqua;
+    list-style-type: none;
+    margin: 5px 0px 0px 0px;
+}
+#menu ul li {
+    display: inline;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+#menu ul li a {
+    text-decoration: none;
+    color:blue;
+}
+a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
+/* images */
+img {
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0px 5px 10px 0px;
+}
+
+/* văn bản */
+p {
+    text-align: justify;
+}

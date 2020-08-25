@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> CSS 5</title>
+<style>
+	h1 {
+		background-color:#CCC;
+		border: 3px solid black;
+	}
+	.one{
+		background-color:#fff;
+		border: 3px solid gray;
+		height: 20px;
+		padding: 5px;
+		margin-bottom: 20px;
+	}
+	.two{
+		background-color:#ffffff;
+		border: 3px solid gray;
+		height: 20px;
+		padding: 5px;
+		margin-bottom: 10px;
+	}
+	.three{
+		background-color:#ffffff;
+		border: 2px dashed blue;
+		height: 20px;
+		padding: 5px;
+		margin-bottom: 20px;
+	}
+	.kh{
+		background-color:#CCC;
+		border: 2px solid black;
+		margin: 4px;
+	}
+	.hop{
+		background-color: #CCC;
+		border: 3px dotted red;
+		margin: 4px;
+	}
+	[title ~= hoahong]{
+		border: 5px solid #CCC;
+		margin-bottom: 20px;
+	}
+</style>
+</head>
+
+<body>
+	<h1> Bài thực hành về Border </h1>
+    <div class="one"> Bài thực hành này cung cấp các định dạng cho văn bản </div>
+    <div class="two"> Mỗi phần tử được xử lý như một hộp văn bản có <span class="kh"> khung </span> độc lập, có thể thiết lập các <span class="kh">thuộc tính</span> định dạng </div>
+	<img src="images/hoahong.jpg" height = "160" width = "160" alt = "Hoa hong" title = "hoahong"> 
+    <div class="three"> Mỗi phần tử được xử lý như một <span class="hop"> hộp văn bản </span> có khung độc lập, có thể <span class="hop"> thiết lập </span> các thuộc tính định dạng </div>
+</body>
+</html>

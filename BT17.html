@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8" >
+		<title> Thẻ form </title>
+	</head>
+	<body>
+		<form>
+			<table border ="1">
+				<tr>
+				<td> Họ tên: </td>
+				<td> <input type = "text" size = "50" placeholder = "Nhập họ tên ở đây!" > </td>
+				</tr>
+				<tr>
+					<td> Giới tính </td>
+					<td>
+						<input type = "radio" name = "gioitinh" value = "Nam" checked> Nam
+						<input type = "radio" name = "gioitinh" value = "Nữ" checked> Nữ
+					</td>
+				</tr>
+				<tr>
+					<td> Điều bạn quan tâm </td>
+					<td>
+						<input type = "checkbox" name = "quantam" value = "kinhte" /> Kinh tế
+						<input type = "checkbox" name = "quantam" value = "xahoi"/> Xã hội
+						<input type = "checkbox" name = "quantam" value = "giaitri"/> Giải trí
+					</td>
+				</tr>
+				<tr>
+					<td> Địa chỉ: </td>
+					<td> <textarea rows = "5" cols = "50"> </textarea> </td>
+				</tr>
+				<tr>
+					<td> Học vấn: </td>
+					<td>
+					<select name = "hocvan">
+						<option value = "dh"> Đại học </option>
+						<option value = "cd"> Cao đẳng </option>
+						<option value = "tc"> Trung cấp </option>
+						<option value = "th"> THPT </option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "submit" value = "Gửi tông tin">
+						<input type = "reset" value = "Nhập lại" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
